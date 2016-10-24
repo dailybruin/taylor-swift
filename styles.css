@@ -1,17 +1,33 @@
+a {
+  color: white;
+}
+
+a:visited { text-decoration: none; color:white;}
+a:hover { text-decoration: none;}
+a:focus { text-decoration: none;}
+a:hover, a:active { text-decoration: none;}
+
 .landing-page{
-  background-color: rgb(250,211,228);
+  /*background-color: rgba(176, 48, 96, 0.8);*/
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
 }
 
 .title-text{
-  font-size: 72px;
+  font-family: 'Yesteryear', cursive;
+  font-size: 172px;
   padding: 30px 20px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
 .descrption-text{
+  font-family: 'Quattrocento Sans', sans-serif;
   font-size: 32px;
   background-color: rgba(255, 255, 255, 0.95);
-  margin: 5px 30px;
+  margin: 45px 30px;
   padding: 10px;
 }
 
@@ -27,21 +43,54 @@
   max-height: 750px;
 }
 
-.main-info{
-  opacity: 0;
+.overlay{
+  font-family: 'Quattrocento Sans', sans-serif;
+  margin: 0px;
   position: absolute;
+  top: 0;
   left: 0;
+  bottom: 0;
   right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1500px;
-  height: 700px;
+  height: 100%;
+  width: 100%;
+  visibility: visible;
   color: white;
-  padding: 50px 100px 30px 100px;
-  margin-top: 50px;
-  font-size: 24px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(176, 48, 96, 0.90);
 }
+
+.DB-posts{
+  font-size: 72px;
+  margin-bottom: 40px;
+}
+
+.article-links{
+  font-size: 24px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.article-links a:hover{
+  color: yellow;
+  text-decoration: none;
+}
+
+.extra-info{
+  margin-top: 90px;
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+.extra-info-text{
+  font-size: 24px;
+}
+
+.db-logo{
+  margin-top: 50px;
+  height: 48px;
+  width: 48px;
+}
+
+/* ARTICLES */
 
 .article {
   background-color: rgb(250,211,228);
