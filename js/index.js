@@ -3,8 +3,5 @@ $(document).ready(function() {
       anchors:['landingPage', 'infoPage']
     });
 
-    // $("#demo01").click(function(){
-    //   $(".overlay").css("visibility", "visible");
-    // });
 
 });

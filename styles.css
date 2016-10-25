@@ -59,12 +59,12 @@ a:hover, a:active { text-decoration: none;}
 }
 
 .DB-posts{
-  font-size: 72px;
-  margin-bottom: 40px;
+  font-size: 46px;
+  margin-bottom: 4%;
 }
 
 .article-links{
-  font-size: 24px;
+  font-size: 16px;
   font-style: normal;
   text-decoration: none;
 }
@@ -75,59 +75,40 @@ a:hover, a:active { text-decoration: none;}
 }
 
 .extra-info{
-  margin-top: 90px;
-  font-size: 52px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  font-size: 24px;
+  margin-bottom: 3%;
 }
 
 .extra-info-text{
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .db-logo{
-  margin-top: 50px;
+  margin-top: 5%;
   height: 48px;
   width: 48px;
 }
 
-/* ARTICLES */
 
-.article {
-  background-color: rgb(250,211,228);
-}
+@media (max-width: 500px) and (max-width: 1000px){
+  .title-text{
+    font-size: 82px;
+  }
 
-.bg-alt {
-  background-color: rgb(255, 255, 255);
-}
+  .DB-posts{
+    font-size: 32px;
+  }
 
-.by-line {
-  text-transform: uppercase;
-  font-weight: 200;
-  padding: .5em 0;
-  margin: 10px 0;
-}
+  .article-links{
+    font-size: 12px;
+  }
 
-.article-body-wrapper {
-  width: 100%;
-  padding: 2em 7em;
-  margin: 0 auto;
-}
+  .extra-info{
+    font-size: 18px;
+  }
 
-.article-img {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  max-height: 800px;
-  padding: 2em 0 0 0;
-}
-
-
-.article-caption {
-  text-align: left;
-  margin-bottom: 3em;
-}
-
-.article-body {
-  text-indent: 2em;
-
+  .extra-info-text{
+    font-size: 14px;
+  }
 }
