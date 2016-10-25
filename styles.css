@@ -90,6 +90,24 @@ a:hover, a:active { text-decoration: none;}
   width: 48px;
 }
 
+.down-arrow{
+  height: 32px;
+  width: 32px;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+}
+
+.down-arrow:hover{
+  animation-duration: 1s;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+}
+
+
+
 
 @media (max-width: 500px) and (max-width: 1000px){
   .title-text{
