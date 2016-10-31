@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-      anchors:['landingPage', 'infoPage']
+      anchors:['landingPage', 'videoPage', 'infoPage']
     });
 
 

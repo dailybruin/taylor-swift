@@ -63,6 +63,11 @@ a:hover, a:active { text-decoration: none;}
   margin-bottom: 4%;
 }
 
+.DB-video{
+  margin: 3% 0;
+  font-size: 32px;
+}
+
 .article-links{
   font-size: 16px;
   font-style: normal;
@@ -75,7 +80,7 @@ a:hover, a:active { text-decoration: none;}
 }
 
 .extra-info{
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 24px;
   margin-bottom: 3%;
 }
@@ -85,12 +90,13 @@ a:hover, a:active { text-decoration: none;}
 }
 
 .db-logo{
-  margin-top: 5%;
+  margin-top: 2%;
   height: 48px;
   width: 48px;
 }
 
 .down-arrow{
+  margin-top: 3%;
   height: 32px;
   width: 32px;
   -webkit-transition-duration: 0.5s; /* Safari */
@@ -106,8 +112,17 @@ a:hover, a:active { text-decoration: none;}
   transition-duration: 0.5s;
 }
 
+.video-wrapper{
+  height: 480px;
+  width: 854px;
+  display: block;
+  margin: auto;
+}
 
-
+#video{
+  height: 100%;
+  width: 100%;
+}
 
 @media (max-width: 500px) and (max-width: 1000px){
   .title-text{
@@ -128,5 +143,10 @@ a:hover, a:active { text-decoration: none;}
 
   .extra-info-text{
     font-size: 14px;
+  }
+
+  .video-wrapper{
+    height: 270px;
+    width: 340px;
   }
 }
